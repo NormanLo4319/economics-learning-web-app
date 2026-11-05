@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Market Equilibrium</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+    svg { width: 100%; height: auto; border: 1px solid #ccc; background: #fff; touch-action: none; }
+    .handle { cursor: grab; }
+    #readout { font-variant-numeric: tabular-nums; }
+  </style>
+</head>
+<body>
+  <h1>Market Equilibrium</h1>
+  <p>Drag the circular handles on the supply (S) and demand (D) curves to shift them and watch the equilibrium move.</p>
+  <div id="graph"></div>
+  <p id="readout"></p>
+  <button id="reset" type="button">Reset</button>
+  <script src="js/app.js"></script>
+</body>
+</html>
