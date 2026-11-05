@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+.venv/
+venv/
+*.csv
+.env
+
+# Frontend build output
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# Local data
+data/
